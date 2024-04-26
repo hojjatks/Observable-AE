@@ -1,0 +1,14 @@
+name: autoencoder
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3
+  - keras
+  - tensorflow
+  - scikit-learn
+  - numpy
+  - pandas
+  - jupyter
+  - ipykernel
+prefix: /Users/hojjat/anaconda3/envs/acm270
