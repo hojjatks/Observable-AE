@@ -1,3 +1,7 @@
 trash/
+__pycache__/
 *.hdf5
 *.csv
+*.yml
+*.out
+*.pyc

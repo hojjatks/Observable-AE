@@ -11,4 +11,10 @@ dependencies:
   - pandas
   - jupyter
   - ipykernel
-prefix: /Users/hojjat/anaconda3/envs/acm270
+  - tqdm
+  - matplotlib
+  - scipy
+  - seaborn
+  - h5py
+
+prefix: /home/hkaveh/anaconda3/envs/autoencoder
