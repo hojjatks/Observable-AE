@@ -24,6 +24,7 @@ data_directory='/groups/astuart/hkaveh/QDYN_autoencoder/dc_0.045.pickle'
 p=ReadData(data_directory)
 T_filter=100 # remove the first T_filter years
 v,theta,tau,t,Nx,Nz=get_V_theta_tau_t_Nx_Nz(p,T_filter)
+v=np.log(v) # We work on the log of the data
 print("Data is loaded!   :)")
 
 
