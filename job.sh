@@ -1,7 +1,6 @@
 #!/bin/bash
 
 # Load the Conda module
-
 # Activate your Conda environment
 
 # Submit this script with: sbatch thefilename
@@ -16,6 +15,7 @@
 #SBATCH --mail-type=BEGIN
 #SBATCH --mail-type=END
 #SBATCH --mail-type=FAIL
+conda init
 conda activate autoencoder
 
 # Run your Python script
