@@ -137,4 +137,5 @@ df_results = pd.DataFrame(history.history)
 df_results['epoch'] = history.epoch
 df_results.to_csv(path_or_buf='./History.csv',index=False)
 
+#%%
 

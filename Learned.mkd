@@ -1,0 +1,4 @@
+Things that I have learned are:
+* I needed to scale the parameters.
+* linear activation function converges really fast. (maybe because it is an easier problem)
+* things really slows down with 

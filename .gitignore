@@ -1,6 +1,10 @@
 trash/
 __pycache__/
+Figs/
 *.csv
 *.yml
 *.out
 *.pyc
+*.npy
+*.hdf5
+*.sh
